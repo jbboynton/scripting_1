@@ -75,7 +75,6 @@ nav ul li a:hover{
 
 .columns h3, h4{
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	font-size: 15px;
 	font-style: normal;
 	font-variant: normal;
 	color: white;
@@ -93,14 +92,19 @@ nav ul li a:hover{
 	line-height: 20px;
 	list-style: none;
 	color: white;
-
+	font-variant: small-caps;
+	padding-right: 5px;
+}
+.columns img{
+	display: block;
+	margin: auto;
 }
 .columns p{
 	padding-left: 5px;
 }
 .column-left{ 
 	float: left; 
-	width: 20%; 
+	width: 15%; 
 	height: 100%;
 	background: #571D1D;
 }
@@ -109,14 +113,14 @@ nav ul li a:hover{
 	width: 60%; 
 	height: 100%;
 	background: #B77A7A;
+	margin: 40px 0;
 }
 .column-right{ 
 	float: right;
-	width: 20%; 
+	width: 25%; 
 	height: 100%;
 	background: #571D1D;
 }
-
 .footer{
 	clear: both;
 	margin-top: 20px;
@@ -125,4 +129,22 @@ nav ul li a:hover{
 	text-align: center;
 	background: #3C0A0A;
 	height: 100px;
+	color: white;
+}
+.footer ul li a{
+	text-decoration: none;
+	padding: .2em 1em;
+	color: white;
+}
+
+.footer ul li a:hover{
+	color: #18BC9C;
+}
+.icons ul li{
+	list-style: none;
+	display: inline;
+}
+.icons{
+    width: 50%;
+    margin: 0 auto; 
 }
