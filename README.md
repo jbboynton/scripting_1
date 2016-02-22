@@ -17,3 +17,11 @@ written in, or about, the 1960's. His main focus is in literature and poetry.*
 The Final Product
 ![alt tag](images/finalscreenshot.png)
 
+The Original Design
+![alt tag](images/before.png)
+
+The Design Process
+![alt tag](images/mock-layout-2.jpg)
+![alt tag](image/skeleton.png)
+
+
