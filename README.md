@@ -15,5 +15,5 @@ written in, or about, the 1960's. His main focus is in literature and poetry.*
 - Todd Brault
 
 The Final Product
-![alt tag](http://images/finalscreenshot.png)
+![alt tag](images/finalscreenshot.png)
 
