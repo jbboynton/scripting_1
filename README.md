@@ -22,6 +22,6 @@ The Original Design
 
 The Design Process
 ![alt tag](images/mock-layout-2.jpg)
-![alt tag](image/skeleton.png)
+![alt tag](image/skelton.png)
 
 
