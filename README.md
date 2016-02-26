@@ -27,4 +27,4 @@ Team Project 1: SixtiesPress.co.uk Redesign
 
 *Print Layout Mock-up*
 ![alt tag](designs/print-layout-pg1.jpg)
-![alt tag](designs/print-layout-pg2.png)
+![alt tag](designs/print-layout-pg2.jpg)
