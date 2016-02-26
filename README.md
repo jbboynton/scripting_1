@@ -1,18 +1,16 @@
-Sixties Press 
+Client-Side Scripting: Team Project 1
 ==============
 
-Client Sided Scripting Assignment 1
+SixtiesPress.co.uk Redesign
 --------------
 
-*The task was to redesign the archaic website created by intoxicated hippies. Sixties
-press is the website of our Client Barry Tebb, who shares Articles, Books, and other media
-written in, or about, the 1960's. His main focus is in literature and poetry.*
+*This project was an academic exercise in web design and teamwork.  Our task was to redesign the original sixtiespress.co.uk website, which was voted the 3rd worst website on the web by [the folks at webpagesthatsuck.com](http://www.webpagesthatsuck.com/worst-websites-of-2011.html) of 2011.*
 
 **Contributors**
 - James Boynton (Team Leader)
-- JP Stearns 
-- Alex Castillo 
 - Todd Brault
+- Alex Castillo
+- JP Stearns
 
 The Final Product
 ![alt tag](images/finalscreenshot.png)
@@ -23,5 +21,3 @@ The Original Design
 The Design Process
 ![alt tag](images/mock-layout-2.jpg)
 ![alt tag](images/skelton.png)
-
-
