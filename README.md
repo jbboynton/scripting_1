@@ -4,7 +4,7 @@ Client-Side Scripting
 Team Project 1: SixtiesPress.co.uk Redesign
 --------------
 
-*This project was an academic exercise in web design and teamwork.  Our task was to redesign the original sixtiespress.co.uk website, which was voted 2011's 3<sup>rd</sup> worst website on the web [by the folks at webpagesthatsuck.com](http://www.webpagesthatsuck.com/worst-websites-of-2011.html).*
+*This project was an academic exercise in web design and teamwork.  Our task was to redesign the original sixtiespress.co.uk website, which was voted 2011's 3<sup>rd</sup> worst site on the web [by the folks at webpagesthatsuck.com](http://www.webpagesthatsuck.com/worst-websites-of-2011.html).*
 
 **Contributors**
 - James Boynton (Team Leader)
