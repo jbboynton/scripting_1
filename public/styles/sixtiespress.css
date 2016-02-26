@@ -1,10 +1,26 @@
-/*Style Sheet for Sixties Press Website*/
+/* =========================================================================  =>
+*                                                                              *
+*    Team Project 1                                                            *
+*    COMI 2010 Client-Side Scripting Languages                                 *
+*    2/21/2016                                                                 *
+*                                                                              *
+*    James Boynton                                                             *
+*    Todd Brault                                                               *
+*    Alex Castillo                                                             *
+*    JP Stearns                                                                *
+*                                                                              *
+*    sixtiespress.css                                                          *
+*                                                                              *
+*    Webpage stylesheet for Team Project 1, referenced by index.html.          *
+*                                                                              *
+<=  ========================================================================= */
+
 .container {
+  margin: 0 auto;
+  max-width: 1095px;
+  padding: 0 20px;
   position: relative;
   width: 100%;
-  max-width: 1095px;
-  margin: 0 auto;
-  padding: 0 20px;
 }
 
 body {
@@ -15,24 +31,24 @@ body {
 /*Nav Bar Styles*/
 nav {
 	margin-top: 20px;
-  height: 40px;
   background: #183470;
+  height: 40px;
 }
 
 nav h1 {
-  font-family: 'Great Vibes', Helvetica, sans-serif;
   color: #fff;
-  text-shadow: 4px 4px 3px rgba(0,0,0,0.1);
-  line-height: 1;
   display: inline-block;
-  height: 40px;
   float: left;
-  margin: auto;
+  font-family: 'Great Vibes', Helvetica, sans-serif;
   font-size: 40px;
+  height: 40px;
   letter-spacing: 5px;
+  line-height: 1;
+  margin: auto;
+  text-shadow: 4px 4px 3px rgba(0,0,0,0.1);
 }
 
-nav ul{
+nav ul {
 	margin: 0;
 	padding: 0;
 }
@@ -42,29 +58,29 @@ nav ul li {
 }
 
 nav ul li a {
-	text-decoration: none;
-	float: right;
-	display: block;
-	padding: 10px 20px;
 	color: #9CC849;
+	display: block;
+	float: right;
+	padding: 10px 20px;
+	text-decoration: none;
 }
 
-nav ul li a:hover{
+nav ul li a:hover {
 	color: white;
 }
 
-.headerBreak{
-	width: 100%;
-	height: 0;
+.headerBreak {
 	border-bottom: 2px solid black;
+	height: 0;
+	width: 100%;
 }
 
 /* Top-of-page banner*/
 .banner-page-top {
-  height: 240px;
-  overflow: hidden;
   background-color: #FFF;
   border-bottom: 20px solid #183470;
+  height: 240px;
+  overflow: hidden;
 }
 
 /* Left side of top-of-page banner */
@@ -80,65 +96,44 @@ nav ul li a:hover{
 }
 
 /* Three Columns for Main Content */
-.columns{
+.columns {
+	background-color: #FFF;
+	border: #333;
 	display: inline-block;
 	position: relative;
   overflow: auto;
-	border:#333;
-	background-color: #FFF;
 }
 
-.columns h1{
-	/*font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	font-style: normal;
-	font-variant: normal;*/
-	/*color: #BD4932;*/
-	margin: auto;
-	text-align: center;
-
-}
-.columns h2,h3,h4{
-	/*font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	font-style: normal;
-	font-variant: normal;*/
-  padding: 10px 0;
+.columns h2,h3,h4 {
 	color: #306CEC;
 	margin: auto;
 	text-align: center;
 }
 
-.columns ul li, p{
-	/*font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
-	font-size: 14px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 400;*/
-	line-height: 18px;
-	list-style: none;
-	list-style-type: circle;
+.columns ul li {
 	color: #000;
+	line-height: 18px;
+	list-style-type: circle;
+	list-style: none;
 	padding-right: 5px;
+  text-align: center;
 }
 
-.columns img{
+.columns img {
 	display: block;
 	margin: auto;
 }
 
 .columns p {
-  text-align: left;
   padding: 0 10px;
+  text-align: left;
 }
 
-.column-left{
-	float: left;
-	width: 25%;
-	height: 100%;
+.column-left {
   border-right: 4px dotted gray;
-	/*border-style: solid;
-    border-width: 2px;
-	border-radius: 5px;
-	/*border-color: #9CC849;*/
+	float: left;
+	height: 100%;
+	width: 25%;
 }
 
 .contact p {
@@ -146,56 +141,33 @@ nav ul li a:hover{
   text-align: center;
 }
 
-.column-center{
-  font-family: Verdana, Helvetica, sans-serif;
-  text-align: left;
+.column-center {
 	display: inline-block;
-  overflow: hidden;
-	width: 49%;
 	height: 100%;
+	width: 49%;
+  font-family: Verdana, Helvetica, sans-serif;
+  overflow: hidden;
   padding-top: 7px;
-	/*background: #9CC849;*/
-	/*border-style: solid;
-	border-width: 2px;
-	border-radius: 5px;
-	border-color: #9CC849;*/
-	/*margin-left: 20px;*/
+  text-align: left;
 }
 
-.banner-bottom {
-  padding-top: 20px;
-  text-align: center;
-}
 
 .editorial {
   padding: 10px;
 }
 
-.column-right{
-	float: right;
-	width: 25%;
-  /*display: inline-block;*/
-	height: 100%;
-	/*background: #702213;*/
+.column-right {
   border-left: 4px dotted gray;
-	/*border-style: solid;
-	border-width: 2px;
-	border-radius: 5px;
-	border-color: #9CC849;*/
-	text-decoration: none;
 	color: #173B8A;
+  float: right;
+  height: 100%;
+  text-decoration: none;
+  width: 25%;
 }
 
-.column-right ul a
-{
-	text-decoration: none;
+.column-right ul li {
 	color: #9CC849;
-}
-
-.column-right ul li
-{
 	text-decoration: none;
-	color: #9CC849;
 }
 
 table {
@@ -216,45 +188,48 @@ td {
   padding: 3%;
 }
 
-.column-right p
-{
-	text-decoration: none;
+.column-right p {
 	color: #9CC849;
+	text-decoration: none;
 }
 
 .advertisement {
-  background: #BD4932;
-  text-align: center;
+  background: #808080;
   padding-bottom: 3%;
+  text-align: center;
 }
 
-.footer{
-	clear: both;
-	margin-top: 20px;
-	border-top: 1px solid black;
-	font-size: 80%;
-	text-align: center;
+.advertisement p {
+  text-align: center;
+}
+
+.footer {
 	background: #183470;
+	border-top: 1px solid black;
+	clear: both;
+	color: white;
+	font-size: 80%;
 	height: 100px;
-	color: white;
+	margin-top: 20px;
+	text-align: center;
 }
 
-.footer ul li a{
-	text-decoration: none;
+.footer ul li a {
+	color: white;
 	padding: .2em 1em;
-	color: white;
+	text-decoration: none;
 }
 
-.footer ul li a:hover{
+.footer ul li a:hover {
 	color: #18BC9C;
 }
 
-.icons ul li{
-	list-style: none;
+.icons ul li {
 	display: inline;
+	list-style: none;
 }
 
-.icons{
-    width: 50%;
-    margin: 0 auto;
+.icons {
+  margin: 0 auto;
+  width: 50%;
 }

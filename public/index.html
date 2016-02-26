@@ -1,24 +1,36 @@
-<?xml version = "1.0" encoding = "utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns = "http://www.w3.org/1999/xhtml">
-	
-<head>
-  <meta charset="utf-8">
 
+<!-- =======================================================================  =>
+*                                                                              *
+*    Team Project 1                                                            *
+*    COMI 2010 Client-Side Scripting Languages                                 *
+*    2/21/2016                                                                 *
+*                                                                              *
+*    James Boynton                                                             *
+*    Todd Brault                                                               *
+*    Alex Castillo                                                             *
+*    JP Stearns                                                                *
+*                                                                              *
+*    index.html                                                                *
+*                                                                              *
+*    XHTML page for Team Project 1.                                            *
+*                                                                              *
+<=  ======================================================================== -->
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
   <title>Sixties Press</title>
-  <meta name="description" content="A site for hippies who read">
-  <meta name="drugs" content="Acid">
+  <meta name="description" content="UK poetry site with UK poetry magazine edited by Barry Tebb from Leeds in Yorkshire.">
 
   <link rel="stylesheet" href="styles/sixtiespress.css">
   <link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="styles/print.css" media="print" />
   <link rel="icon" href="favicon.ico" type="image/x-icon" />
-  <link rel="stylesheet" type="text/css" href="styles/print.css" media="print">
-  <!--[if lt IE 9]>
-  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
 </head>
+
 <body>
 	<!-- Sixties Press: For Hippies who read -->
   <div class="container">
@@ -43,10 +55,10 @@
       <!-- Page banner -->
       <div class="banner-page-top">
         <div class="banner-quote">
-          <img src="styles/images/banner-left2.png" alt="quote" />
+          <a href="#"><img src="styles/images/banner-left2.png" alt="quote" /></a>
         </div>
         <div class="banner-blog">
-          <a href="#"><img src="styles/images/banner-right2.png" alt="blog" /></a>
+          <a href="http://www.barrytebb.blogspot.com/"><img src="styles/images/banner-right2.png" alt="blog" /></a>
         </div>
       </div>
     </div> <!-- End of header -->
@@ -121,9 +133,9 @@
 
         <!-- Contact info -->
         <div class="contact">
-          <br /><p>Please Email your Poetry or Comments to
+          <p>Please Email your Poetry or Comments to
           <a href="mailto:info@sixtiespress.co.uk">Barry Tebb</a> </p>
-          <br /><br />
+          <p>Barry Tebb's manuscripts are in the Leeds University's Brotherton Library Special Collection archive.</p>
         </div>
 
       </div> <!-- End of left column -->
@@ -134,7 +146,7 @@
         <div class="banner-catalog">
         <h2>2007 - 2008 Catalog</h2>
           <hr width="90%" size="1" color="gray">
-          <img src="styles/images/catalog-banner2.png" alt="catalog banner" />
+          <a href="#"><img src="styles/images/catalog-banner2.png" alt="catalog banner" /></a>
           <hr width="90%" size="1" color="gray">
         </div>
 
@@ -162,11 +174,6 @@
             89 Connaught Road, Sutton, Surrey. <br />
             &nbsp;
           </p>
-        </div>
-
-        <!-- Banner at the bottom of the page -->
-        <div class="banner-bottom">
-          <img src="styles/images/banner-bottom.png" alt="bottom banner" />
         </div>
 
       </div> <!-- End of center column -->
@@ -255,24 +262,22 @@
         <div class="advertisement">
           <h4>ABBEY BOOKS</h4>
           <h5>GREATER LONDON AND SURREY</h5>
-          <ul>
-             <li>Academic Books Bought</li>
-             <li>Small Collections to Libraries</li>
-          </ul>
-          <p>Phone (02086) 412212</p>
+          <p>Academic Books Bought<br />Small Collections to Libraries</p>
+          <p>Phone: (02086) 412212</p>
         </div>
 
       </div> <!-- End of right column -->
-    </div> <!-- End of columns -->  
-    <!--Footer -->
+    </div> <!-- End of columns -->
+
+    <!-- Footer -->
     <div class = "footer">
       <div class = "icons">
         <ul>
-          <li><a href="#"><i class="fa fa-facebook fa-2x"></i></a></li>
-          <li><a href="#"><i class="fa fa-twitter fa-2x"></i></a></li>
-          <li><a href="#"><i class="fa fa-linkedin fa-2x"></i></a></li>
-          <li><a href="#"><i class="fa fa-google-plus fa-2x"></i></a></li>
-          <li><a href="#"><i class="fa fa-envelope fa-2x"></i></a></li>
+          <li><a href="https://www.facebook.com/barry.tebb"><i class="fa fa-facebook fa-2x"></i></a></li>
+          <li><a href="https://twitter.com/barrytebb"><i class="fa fa-twitter fa-2x"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/barry-tebb-a8078897"><i class="fa fa-linkedin fa-2x"></i></a></li>
+          <li><a href="https://plus.google.com/communities/115239249104183798829"><i class="fa fa-google-plus fa-2x"></i></a></li>
+          <li><a href="mailto:info@sixtiespress.co.uk"><i class="fa fa-envelope fa-2x"></i></a></li>
         </ul>
           &copy; Copyright of all poems remain with the poets.
           <br>
